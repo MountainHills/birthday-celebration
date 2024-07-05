@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.landing-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/images/background-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjusts image to cover the whole div */
+  background-position: center; /* Centers the image */
+  opacity: 0.8;
+}
+
+.heading-container {
+  background-color: lightblue;
+  padding: 2rem 5rem;
+  box-shadow: 1rem 1rem black;
+}
+
+.greeting {
+  font-size: 5rem;
+  text-shadow: 3px 2px black;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-grp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjusts image to cover the whole div */
+  background-position: center; /* Centers the image */
+}
+
+#first {
+  background-image: url("./images/ryan-1.jpg");
+}
+
+#second {
+  background-image: url("./images/ryan-2.jpg");
+}
+
+#third {
+  background-image: url("./images/ryan-5.png");
+}
+
+#fourth {
+  background-image: url("./images/ryan-6.png");
+}
+
+#fifth {
+  background-image: url("./images/ryan-3.jpg");
+}
+
+#sixth {
+  background-image: url("./images/ryan-7.jpg");
+}
+
+#seventh {
+  background-image: url("./images/ryan-13.jpg");
+}
+
+#eight {
+  background-image: url("./images/ryan-8.jpg");
+}
+
+#ninth {
+  background-image: url("./images/ryan-10.jpg");
+}
+
+#tenth {
+  background-image: url("./images/ryan-11.jpg");
+}
+
+#eleventh {
+  background-image: url("./images/ryan-14.jpg");
+}
+
+#twelfth {
+  background-image: url("./images/ryan-12.jpg");
+}
+
+.letter {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 5rem;
+}
+
+.letter-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  background-color: lightblue;
+  padding: 1rem 2rem;
+  box-shadow: 0.5rem 0.5rem black;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.letter p {
+  font-size: 1.5rem;
+}
+
+#dave-letter p {
+  font-size: 1.3rem;
+}
